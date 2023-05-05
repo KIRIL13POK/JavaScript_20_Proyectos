@@ -1,0 +1,7 @@
+La lógica del código es crear una aplicación que permite al usuario calcular el costo de un seguro de automóvil. El código se ha escrito utilizando programación orientada a objetos (OOP) en JavaScript.
+
+La clase Seguro representa un objeto que contiene la información del seguro de automóvil, como la marca, el año y el tipo de cobertura. Esta clase tiene un método llamado cotizarSeguro que calcula el costo del seguro según los valores de los atributos.
+
+La clase UI representa un objeto que se encarga de la interfaz de usuario. Contiene varios métodos que se utilizan para llenar el formulario con los años, mostrar mensajes de error o éxito y mostrar el resultado de la cotización.
+
+El evento principal del programa es el envío del formulario. Cuando el usuario envía el formulario, se crea un objeto Seguro con los valores proporcionados en el formulario y se utiliza el método cotizarSeguro para calcular el costo del seguro. Luego, se utiliza el método mostrarResultado de la clase UI para mostrar el resultado al usuario.
